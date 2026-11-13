@@ -1,0 +1,48 @@
+{
+  "res_code": {
+    "error_code": "00",
+    "error_desc": "Thanh cong",
+    "ref_code": "CMM_000",
+    "ref_desc": "Nhan thong tin thanh cong"
+  },
+  "data": {
+    "header": {
+      "msg_id": "",
+      "service_id": "590001",
+      "product_code": "CIC_HOITIN_B11T"
+    },
+    "payload": {
+      "ph_hoitin_b11t": {
+        "data": {
+          "ma_sophieu": "",
+          "tl001": "",
+          "tl002": "09:00:00",
+          "tl005": "SYSTEM_MOCK",
+          "tl007": "",
+          "tl008": "",
+          "cccd": "",
+          "ten_kh": "",
+          "tl099": "OUT_04",
+          "tl100": "Tra cứu thành công có thông tin dư nợ",
+          "bc100": {
+            "ttc04": "T",
+            "ma_cic": "",
+            "cn003": "Hà Nội",
+            "cn008": "Quận Cầu Giấy, Hà Nội",
+            "cn100": true,
+            "cn101": "Đã xác thực danh tính"
+          },
+          "bc200": {
+            "bc210": 150.0,
+            "bc220": 2,
+            "bc230": "0",
+            "bc240": 0,
+            "bc250": "0",
+            "bc260": 0,
+            "bc270": "0"
+          }
+        }
+      }
+    }
+  }
+}

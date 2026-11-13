@@ -1,0 +1,168 @@
+{
+  "res_code": {
+    "error_code": "00",
+    "error_desc": "Thanh cong",
+    "ref_code": "CMM_000",
+    "ref_desc": "Nhan thong tin thanh cong"
+  },
+  "data": {
+    "header": {
+      "msg_id": "",
+      "service_id": "590001",
+      "product_code": "CIC_HOITIN_S"
+    },
+    "payload": {
+      "MASOPHIEU": "",
+      "TL001": "",
+      "TL002": "10:15:00",
+      "TL005": "SYSTEM_MOCK",
+      "TL007": "",
+      "TL008": "",
+      "MSTHUE_DKKD": "",
+      "CCCD_HOCHIEU": "",
+      "TENKH": "",
+      "TL099": "OUT_04",
+      "TL100": "Tra cứu thành công có thông tin quan hệ tín dụng",
+      "BC100": {
+        "BC110": {
+          "TTC04": "T",
+          "MACIC": "",
+          "BC1101": "",
+          "BC1102": "",
+          "BC1103": "Số 123 Đường Trần Duy Hưng, Cầu Giấy, Hà Nội",
+          "BC1104": "NGUYEN VAN GIAM DOC",
+          "BC1105": "",
+          "BC1106": "Công ty TNHH",
+          "BC1107": "Bán buôn và bán lẻ",
+          "BC1108": 2,
+          "BC1109": ""
+        },
+        "BC120": [
+          "Tên cũ: CHI NHANH SAO MAI MIEN BAC",
+          "Địa chỉ cũ: Số 45 Lê Duẩn, Hoàn Kiếm, Hà Nội"
+        ],
+        "BC130": {
+          "TL000": "Người có liên quan",
+          "BC1301": [
+            { "BC13011": "NGUYEN VAN B", "BC13012": "Chủ tịch Hội đồng quản trị" }
+          ]
+        },
+        "BC140": {
+          "TL000": "Chi nhánh / VP đại diện",
+          "BC1401": [
+            { "BC14011": "Chi nhánh Hải Phòng", "BC14012": "Số 10 Lạch Tray, Ngô Quyền, Hải Phòng" }
+          ]
+        }
+      },
+      "BC200": {
+        "TL000": "Điểm tín dụng và xếp hạng",
+        "BC210": [
+          {
+            "BC2101": "AAA",
+            "BC2102": "Hạng 1 - Tối ưu",
+            "BC2103": "850",
+            "BC2104": "0.01%",
+            "BC2105": ""
+          }
+        ]
+      },
+      "BC300": {
+        "BC310": {
+          "BC3101": {
+            "TL000": "Dư nợ ngắn hạn",
+            "BC31011": [
+              {
+                "TTC01": "LPB",
+                "TTC02": "Ngân hàng TMCP Bưu Điện Liên Việt",
+                "BC310111": "VND",
+                "BC310112": [
+                  {
+                    "BC3101121": "Vay vốn lưu động phục vụ kinh doanh",
+                    "BC3101122": [
+                      {
+                        "BC31011221": "Nhóm 1 - Nợ đủ tiêu chuẩn",
+                        "BC31011222": 500.0,
+                        "BC31011223": 500.0
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "BC3102": {
+            "TL000": "Dư nợ trung và dài hạn",
+            "BC31021": [
+              {
+                "TTC01": "VCB",
+                "TTC02": "Ngân hàng TMCP Ngoại thương Việt Nam",
+                "BC310211": [
+                  {
+                    "BC3102111": "Vay đầu tư dây chuyền sản xuất",
+                    "BC3102112": 1500.0,
+                    "BC3102113": 1500.0,
+                    "BC3102114": 0,
+                    "BC3102115": "Nhóm 1 - Nợ đủ tiêu chuẩn",
+                    "BC3102116": "Không có nợ quá hạn",
+                    "BC3102117": 0,
+                    "BC3102118": 0,
+                    "BC3102119": 0
+                  }
+                ]
+              }
+            ]
+          },
+          "BC3103": { "TL000": "Dư nợ thẻ tín dụng", "BC31031": [] },
+          "BC3104": { "TL000": "Cam kết ngoại bảng (Bảo lãnh, L/C)", "BC31041": [] },
+          "BC3105": { "TL000": "Nợ xấu", "BC31051": [] }
+        },
+        "BC320": {
+          "BC3201": {
+            "TL000": "Tổng quan dư nợ hiện tại",
+            "BC32011": 2000.0,
+            "BC32012": 0,
+            "BC32013": 0,
+            "BC32014": 0,
+            "BC32015": 0,
+            "BC32016": 2000.0
+          }
+        }
+      },
+      "BC400": {
+        "TL000": "Tài sản bảo đảm",
+        "BC410": [
+          {
+            "TTC01": "LPB",
+            "TTC02": "Ngân hàng TMCP Bưu Điện Liên Việt",
+            "BC4101": [
+              {
+                "BC41011": "Bất động sản quyền sử dụng đất",
+                "BC41012": "Hà Nội",
+                "BC41013": 3000.0
+              }
+            ]
+          }
+        ]
+      },
+      "BC500": {
+        "TL000": "Hợp đồng tín dụng",
+        "BC510": [
+          {
+            "TTC01": "LPB",
+            "BC5101": "HĐTD-2025/01/LPB",
+            "BC5102": "2025-01-15",
+            "BC5103": "2027-01-15",
+            "BC5104": 2000.0
+          }
+        ]
+      },
+      "BC600": [
+        { "BC610": "Không có lịch sử nợ xấu trong 3 năm gần nhất" }
+      ],
+      "BC700": {
+        "TL000": "Cảnh báo rủi ro",
+        "BC710": "Khách hàng không thuộc danh sách cảnh báo hoặc nợ chậm trả"
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "res_code": {
+    "error_code": "00",
+    "error_desc": "Thanh cong",
+    "ref_code": "CMM_000",
+    "ref_desc": "Nhan thong tin thanh cong"
+  },
+  "data": {
+    "header": {
+      "msg_id": "",
+      "service_id": "590001",
+      "product_code": "CIC_HOITIN_R"
+    },
+    "payload": {
+      "MASOPHIEU": "",
+      "TL001": "",
+      "TL002": "11:00:00",
+      "TL005": "SYSTEM_MOCK",
+      "TL007": "",
+      "TL008": "",
+      "MSTHUE_DKKD": "",
+      "TENKH": "",
+      "TL099": "OUT_04",
+      "TL100": "Tra cứu thành công R10T",
+      "BC100": {
+        "BC110": {
+          "TTC04": "T",
+          "MACIC": "",
+          "BC1104": "NGUYEN VAN DAI DIEN",
+          "BC1105": "",
+          "BC1119": ""
+        },
+        "BC120": []
+      },
+      "BC200": {
+        "TL000": "Xếp hạng tín dụng dòng R",
+        "BC210": [
+          {
+            "BC2101": "AA",
+            "BC2102": "Hạng 2 - Rất tốt",
+            "BC2103": "780",
+            "BC2105": ""
+          }
+        ]
+      },
+      "BC300": {
+        "BC310": {
+          "BC3101": {
+            "TL000": "Dư nợ tín dụng tổng hợp",
+            "BC31011": [
+              {
+                "TTC01": "LPB",
+                "TTC02": "Ngân hàng TMCP Bưu Điện Liên Việt",
+                "BC310111": "VND",
+                "BC310112": [
+                  {
+                    "BC3101121": "Vay trung hạn",
+                    "BC3101122": [
+                      {
+                        "BC31011221": "Nhóm 1",
+                        "BC31011222": 800.0,
+                        "BC31011223": 800.0
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "BC500": {
+        "TL000": "Thông tin hợp đồng tín dụng",
+        "BC510": [
+          {
+            "TTC01": "LPB",
+            "BC5101": "HDTD-R-2025/LPB",
+            "BC5102": "2025-03-01",
+            "BC5103": "2026-03-01",
+            "BC5104": 800.0
+          }
+        ]
+      },
+      "BC700": {
+        "TL000": "Cảnh báo rủi ro",
+        "BC710": "Bình thường, không có lịch sử nợ xấu"
+      }
+    }
+  }
+}

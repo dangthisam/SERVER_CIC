@@ -1,0 +1,79 @@
+{
+  "res_code": {
+    "error_code": "00",
+    "error_desc": "Thanh cong",
+    "ref_code": "CMM_000",
+    "ref_desc": "Nhan thong tin thanh cong"
+  },
+  "data": {
+    "header": {
+      "msg_id": "",
+      "service_id": "590001",
+      "product_code": "CIC_HOITIN_S"
+    },
+    "payload": {
+      "MASOPHIEU": "",
+      "TL001": "",
+      "TL002": "10:15:00",
+      "TL005": "SYSTEM_MOCK",
+      "TL007": "",
+      "TL008": "",
+      "CCCD_HOCHIEU": "",
+      "TENKH": "",
+      "TL099": "OUT_04",
+      "TL100": "Tra cứu thành công S11T",
+      "BC100": {
+        "BC110": {
+          "TTC04": "T",
+          "MACIC": "",
+          "BC1109": ""
+        },
+        "BC120": []
+      },
+      "BC200": {
+        "TL000": "Điểm tín dụng thể nhân",
+        "BC210": [
+          {
+            "BC2101": "Hạng 2",
+            "BC2102": "Rất tốt",
+            "BC2103": "720",
+            "BC2105": ""
+          }
+        ]
+      },
+      "BC300": {
+        "BC310": {
+          "BC3101": {
+            "TL000": "Dư nợ vay ngắn hạn",
+            "BC31011": [
+              {
+                "TTC01": "LPB",
+                "TTC02": "Ngân hàng TMCP Bưu Điện Liên Việt",
+                "BC310111": "VND",
+                "BC310112": [
+                  {
+                    "BC3101121": "Vay tiêu dùng",
+                    "BC3101122": [
+                      {
+                        "BC31011221": "Nhóm 1",
+                        "BC31011222": 100.0,
+                        "BC31011223": 100.0
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "BC400": { "TL000": "Tài sản bảo đảm", "BC410": [] },
+      "BC500": { "TL000": "Hợp đồng tín dụng", "BC510": [] },
+      "BC600": [],
+      "BC700": {
+        "TL000": "Cảnh báo rủi ro",
+        "BC710": "Bình thường"
+      }
+    }
+  }
+}
